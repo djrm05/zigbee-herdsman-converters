@@ -1,5 +1,18 @@
 # Changelog
 
+## [24.12.0](https://github.com/Koenkk/zigbee-herdsman-converters/compare/v24.11.0...v24.12.0) (2025-08-04)
+
+
+### Features
+
+* Tuya TRV601 and TS0601_thermostat_1: support new options ([#9730](https://github.com/Koenkk/zigbee-herdsman-converters/issues/9730)) ([72a8a3a](https://github.com/Koenkk/zigbee-herdsman-converters/commit/72a8a3ad759d85d6dda0b09385b82d6b8127696f))
+
+
+### Bug Fixes
+
+* **detect:** Detect `_TZE204_gops3slb` as Tuya ZWT198/ZWT100-BH ([#9731](https://github.com/Koenkk/zigbee-herdsman-converters/issues/9731)) ([9ee2c9d](https://github.com/Koenkk/zigbee-herdsman-converters/commit/9ee2c9d48d4d118e1db2884dc7e5fa58419b3356))
+* YSRSAI YSR-MINI-01_dimmer: fix state not reported when changed via the device https://github.com/Koenkk/zigbee2mqtt/issues/28133 ([8cc9d56](https://github.com/Koenkk/zigbee-herdsman-converters/commit/8cc9d561a16a171026cdc99010114a3963656cd2))
+
 ## [24.11.0](https://github.com/Koenkk/zigbee-herdsman-converters/compare/v24.10.0...v24.11.0) (2025-08-01)
 
 
